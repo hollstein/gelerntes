@@ -1,0 +1,30 @@
+
+theme: "PaperMod"
+baseURL: 'http://example.org/'
+languageCode: 'en-us'
+title: 'gelerntes'
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10          
