@@ -6,5 +6,18 @@ tags: ["markdown", "tools"]
 ShowToc: false
 ---
 
-Markdown documents quickly get out of control. Having a table of content helps to navigate and parse content.
+Markdown documents for technical documentation can quickly get out of control and loose their value if one just can't find relevant content. Having a table of content helps to navigate and parse files even if they become longer and more complex. Markdown itself doesn't create auto generating and auto updating table of contents and doing this manual will just not work with real people and real live scenario's where time is always in short supply, especially then documentation is an afterthought to getting features shipped. Automating this is a great way to save time and keep these documents useful. 
 
+One way that worked for me is the tool [markdown-toc](https://github.com/ekalinin/github-markdown-toc), install it via:
+
+```bash
+npm install --save markdown-toc
+````
+
+Add `<!-- toc -->` to a markdown file (e.g. `Readme.md`) and run:
+
+```bash
+npx markdown-toc -i Readme.md
+```
+
+on the file. Done.
