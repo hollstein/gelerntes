@@ -1,7 +1,7 @@
 ---
 title: "Just finished reading: 'Why we sleep'"
 date: 2023-04-27T17:18:37+02:00
-draft: true
+draft: false
 tags: ["books"]
 ---
 
