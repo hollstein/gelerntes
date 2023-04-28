@@ -5,7 +5,7 @@ draft: false
 tags: ["books"]
 ---
 
-"Why We Sleep" by Matthew Walker Ph.D. is a great read to bring you up to speed about what we scientifically know about sleep today. He describes the results and implications of many years of research and doesn't shy away on describing how the research experiments were done and designed. Fascinating read. 
+"Why We Sleep" by [Matthew Walker Ph.D.](https://www.sleepdiplomat.com/author) is a great read to bring you up to speed about what we scientifically know about sleep today. He describes the results and implications of many years of research and doesn't shy away on describing how the research experiments were done and designed. Fascinating read. 
 
 Quick messages to take away:
 
