@@ -1,5 +1,5 @@
 ---
-title: "Debugging_dash_apps"
+title: "Debugging dash apps"
 date: 2023-04-28T11:47:28+02:00
 draft: false
 tags: ["python", "dash"]
