@@ -5,9 +5,9 @@ draft: false
 tags: ["open source"]
 ---
 
-Listening to [this](https://pythonbytes.fm/episodes/show/332/a-python-a-slurpee-and-some-chaos) episode of the awesome PythonBytes really shocked me with covering this blog post of the python software foundation: https://pyfound.blogspot.com/2023/04/the-eus-proposed-cra-law-may-have.html
+Listening to [this](https://pythonbytes.fm/episodes/show/332/a-python-a-slurpee-and-some-chaos) episode of the wonderful Python Bytes really shocked me with covering this blog post of the python software foundation: https://pyfound.blogspot.com/2023/04/the-eus-proposed-cra-law-may-have.html
 
-I totally missed it and hope it is not too late that members of the european parliament can fix this issues with this law. If this becomes law, the future of free and open software in europe looks bleak, and we don't want that. This is my letter to members of the european parliament taking on responsibility for Berlin (in german):
+I totally missed it and hope it is not too late that members of the European Parliament can resolve these issues with this law. If this becomes law, the future of free and open software in Europe looks bleak, and we don't want that. This is my letter to members of the European Parliament, taking on responsibility for Berlin (in German):
 
 
 
