@@ -9,5 +9,7 @@ Developing date science use cases on a Mac with 256GB disk space is fun compared
 
 - `docker system prune --all`, removes all thing's docker, also everything cached, so initial build times are a price to pay 
 - If I have no clue why this disk is full: `find . -maxdepth 1 -type d -mindepth 1 -exec du -hs {} \;`
+- `pip cache purge`
+- `conda clean --all`
 - Removing unused software also helps
 
