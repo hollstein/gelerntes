@@ -5,8 +5,7 @@ draft: false
 tags: ["python"]
 ---
 
-
-Enabling the feats of current age open source LLMs on MS office documents can be a efficiency game changer in many business tasks. First step is to extract text from these documents before feeding the LLMs. The initial answer on how to do it from ChatGPT and You Chat was right, but only on the surface level. There I was missing text from grouped shapes. This code snipped does extract and does a little bit of cleanup:
+Enabling the features of current age open source LLMs on MS Office documents can be an efficiency game changer in many business tasks. The first step is to extract text from these documents before feeding the LLMs. The initial answer on how to do it from ChatGPT and You Chat was almost working, but there was missing text from grouped shapes. This code snipped does extract and does a little bit of cleanup:
 
 
 ```python
@@ -21,20 +20,25 @@ def is_good_text(text):
     else:
         return True
 
+    
+def cleanup_text(text:str) -> str:
+    # collapse duplicate spaces, remove non printable character
+    return re.sub('\s+', ' ',re.sub(r"[^\x20-\x7E]", " ", text)).strip()
+    
 prs = Presentation("file.pptx")
 notes_texts, slide_texts = [], []
 for i_slide,slide in enumerate(prs.slides):
         # process slide notes
-        notes_text.append(
+        notes_texts.append(
             "\n".join([shape.text for shape in slide.notes_slide.shapes if is_good_text(shape.text)])
             if slide.has_notes_slide else ""
         )
 
         slide_texts += [
-            bytes(re.sub('\s+', ' ', text), 'utf-8').decode('utf-8', 'ignore')  # text cleanup
+            cleanup_text(text)
             for text in (
                 [  # Text from ungrouped shapes
-                    re.sub('\s+', ' ', shape.text)
+                    shape.text
                     for shape in slide.shapes 
                     if hasattr(shape, 'text') 
                     and is_good_text(shape.text)
