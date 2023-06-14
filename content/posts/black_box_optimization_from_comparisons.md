@@ -209,4 +209,7 @@ fig.show()
 {{< load-plotly >}}
 {{< plotly json="/optimization.json" height="400px" >}}
 
+![](/optimization.jpeg)
+
 We see that the algorithm picks comparison points to update the expected optimum point in parameter space in a quite efficient way.
+
