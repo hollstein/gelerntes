@@ -210,4 +210,3 @@ fig.show()
 {{< plotly json="https://hollstein.github.io/gelerntes/optimization.json" height="400px" >}}
 
 We see that the algorithm picks comparison points to update the expected optimum point in parameter space in a quite efficient way.
-
