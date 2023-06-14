@@ -207,7 +207,7 @@ fig.show()
 ```
 
 {{< load-plotly >}}
-{{< plotly json="/optimization.json" height="400px" >}}
+{{< plotly json="https://hollstein.github.io/gelerntes/optimization.json" height="400px" >}}
 
 ![](/optimization.jpeg)
 
