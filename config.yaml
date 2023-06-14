@@ -4,6 +4,8 @@ baseURL: 'http://example.org/'
 languageCode: 'en-us'
 title: 'gelerntes'
 
+canonifyURLs: true
+
 
 outputs:
   home:
